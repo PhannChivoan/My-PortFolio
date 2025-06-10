@@ -10,7 +10,7 @@ function Contact(props) {
    const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://127.0.0.1:8000/api/addmessage', {
+      const response = await axios.post('https://portfoliofeedback.onrender.com/api/addmessage', {
         name,
         email,
         subject,
