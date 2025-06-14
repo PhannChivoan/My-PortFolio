@@ -11,12 +11,12 @@ function Resume(props) {
       <p>
         Take a look at my resume to learn more about my experience and
         qualifications.{" "}<a
-    href="/PhannChivoan_CV.pdf" 
-    download="PhannChivoan_CV.pdf"
-    className="btn btn-primary btn-sm ms-2"
-  >
-    Download My Resume
-  </a>
+  href={`${process.env.PUBLIC_URL}/PhannChivoan_CV.pdf`}
+  download="PhannChivoan_CV.pdf"
+  className="btn btn-primary btn-sm ms-2"
+>
+  Download My Resume
+</a>
       </p>
         
     </div>
