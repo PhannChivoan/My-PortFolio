@@ -11,7 +11,7 @@ function Resume(props) {
       <p>
         Take a look at my resume to learn more about my experience and
         qualifications.{" "}<a
-    href="/Chivoan_CV.pdf" 
+    href="/PhannChivoan_CV.pdf" 
     download="PhannChivoan_CV.pdf"
     className="btn btn-primary btn-sm ms-2"
   >
