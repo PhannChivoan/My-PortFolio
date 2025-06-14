@@ -35,7 +35,9 @@
 .progress-bar[aria-valuenow="55"] {
   width: 55%;
 }
-
+.progress-bar[aria-valuenow="30"] {
+  width: 30%;
+}
 
 @media (max-width: 768px) {
   .main {

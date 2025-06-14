@@ -44,23 +44,15 @@ function Project(props) {
           <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
             <div className="portfolio-content h-100">
               <img
-                src={`${process.env.PUBLIC_URL}/assets/img/portfolio/app-1.jpg`}
+                src={`${process.env.PUBLIC_URL}/image/Screenshot 2025-06-14 093250.png`}
                 className="img-fluid"
                 alt=""
               />
               <div className="portfolio-info">
-                <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <h4>Laravel</h4>
+                <p class="p-2">My Laravel website for storing message using Rest API to store in my website.</p>
                 <a
-                  href="assets/img/portfolio/app-1.jpg"
-                  title="App 1"
-                  data-gallery="portfolio-gallery-app"
-                  className="glightbox preview-link"
-                >
-                  <i className="bi bi-zoom-in" />
-                </a>
-                <a
-                  href="portfolio-details.html"
+                  href="https://portfoliofeedback.onrender.com/"
                   title="More Details"
                   className="details-link"
                 >
@@ -69,66 +61,7 @@ function Project(props) {
               </div>
             </div>
           </div>
-          {/* End Portfolio Item */}
-          <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-            <div className="portfolio-content h-100">
-              <img
-                src={`${process.env.PUBLIC_URL}/assets/img/portfolio/product-1.jpg`}
-                className="img-fluid"
-                alt=""
-              />
-              <div className="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a
-                  href="assets/img/portfolio/product-1.jpg"
-                  title="Product 1"
-                  data-gallery="portfolio-gallery-product"
-                  className="glightbox preview-link"
-                >
-                  <i className="bi bi-zoom-in" />
-                </a>
-                <a
-                  href="portfolio-details.html"
-                  title="More Details"
-                  className="details-link"
-                >
-                  <i className="bi bi-link-45deg" />
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* End Portfolio Item */}
-          <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-            <div className="portfolio-content h-100">
-              <img
-                src={`${process.env.PUBLIC_URL}/assets/img/portfolio/branding-1.jpg`}
-                className="img-fluid"
-                alt=""
-              />
-              <div className="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a
-                  href="assets/img/portfolio/branding-1.jpg"
-                  title="Branding 1"
-                  data-gallery="portfolio-gallery-branding"
-                  className="glightbox preview-link"
-                >
-                  <i className="bi bi-zoom-in" />
-                </a>
-                <a
-                  href="portfolio-details.html"
-                  title="More Details"
-                  className="details-link"
-                >
-                  <i className="bi bi-link-45deg" />
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* End Portfolio Item */}
-          
+        
           
          
           

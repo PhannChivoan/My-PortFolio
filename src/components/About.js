@@ -34,7 +34,7 @@ function About(props) {
                 </li>
                 <li>
                   <i className="bi bi-chevron-right" />{" "}
-                  <strong>Website:</strong> <span>www.example.com</span>
+                  <strong>Website:</strong> <span><a href="https://github.com/PhannChivoan">https://github.com/PhannChivoan</a></span>
                 </li>
                 <li>
                   <i className="bi bi-chevron-right" /> <strong>Phone:</strong>{" "}

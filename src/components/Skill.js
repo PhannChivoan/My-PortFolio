@@ -96,7 +96,22 @@ function Skill(props) {
         <div className="col-lg-6">
           <div className="progress">
             <span className="skill">
-              <span>React/Node js</span> <i className="val">80%</i>
+              <span>React/Node js</span> <i className="val">70%</i>
+            </span>
+            <div className="progress-bar-wrap">
+              <div
+                className="progress-bar"
+                role="progressbar"
+                aria-valuenow={70}
+                aria-valuemin={0}
+                aria-valuemax={100}
+              />
+            </div>
+          </div>
+          {/* End Skills Item */}
+          <div className="progress">
+            <span className="skill">
+              <span>Laravel</span> <i className="val">80%</i>
             </span>
             <div className="progress-bar-wrap">
               <div
@@ -111,28 +126,13 @@ function Skill(props) {
           {/* End Skills Item */}
           <div className="progress">
             <span className="skill">
-              <span>Laravel</span> <i className="val">90%</i>
+              <span>API</span> <i className="val">30%</i>
             </span>
             <div className="progress-bar-wrap">
               <div
                 className="progress-bar"
                 role="progressbar"
-                aria-valuenow={90}
-                aria-valuemin={0}
-                aria-valuemax={100}
-              />
-            </div>
-          </div>
-          {/* End Skills Item */}
-          <div className="progress">
-            <span className="skill">
-              <span>API</span> <i className="val">55%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                aria-valuenow={55}
+                aria-valuenow={30}
                 aria-valuemin={0}
                 aria-valuemax={100}
               />
