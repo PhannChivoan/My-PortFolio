@@ -1,3 +1,40 @@
+This is my personal portfolio website built using React. It highlights my skills and includes an API integration for sending messages directly through the site.
+
+Features :
+Built with React for a smooth, dynamic user experience.
+
+Integrated with a backend API to send and receive messages.
+
+Clean and responsive design.
+
+Hosted live at: https://portfoliofeedback.onrender.com/
+
+Technologies Used
+React.js (frontend)
+
+API integration for messaging functionality
+
+CSS / Bootstrap for styling
+
+Backend API hosted with Laravel (or your backend tech)
+
+Purpose
+This portfolio is designed to:
+
+Showcase my React skills and frontend development.
+
+Demonstrate practical API integration for real-time communication.
+
+Provide a contact form that sends messages via API.
+
+Serve as a live example for employers and clients.
+
+Usage
+Visit https://portfoliofeedback.onrender.com/ to see the portfolio and try the message sending feature.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
